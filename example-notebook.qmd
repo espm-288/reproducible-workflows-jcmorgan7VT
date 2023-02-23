@@ -41,6 +41,7 @@ mtcars |> ggplot(aes(cyl, mpg)) + geom_point()
 library(usethis)
 #usethis has many useful functions
 #only do this once
-usethis::use_github_action("render-rmarkdown.yaml")
+#usethis::use_github_action("render-rmarkdown.yaml")
+library(renv)
 ```
 
